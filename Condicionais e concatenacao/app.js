@@ -1,31 +1,28 @@
-// Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
-let = prompt("Qual dia da semana?");
-if (dia == "Sábado" || dia == "Domingo") {
-  alert("Bom fim de semana!");
-} else {
-  alert("Boa semana!");
+// Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
+let contador = 1;
+while (contador <= 10) {
+    console.log (contador);
+    contador++;
 }
 
-// Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
-numero = prompt("Digite um número:");
-if (numero > 0) {
-  alert("O número é Positivo");
-} else if (numero < 0) {
-  alert("O número é Negativo");
+// Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
+let contador1 = 10;
+while (contador1 >= 0) {
+    console.log(contador1);
+    contador--;
 }
 
-// Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
-if (pontos >= 100) {
-   alert("Parabéns, você venceu!");
-} else {
-   alert("Tente novamente para ganhar.");
-  }
+// Crie um programa de contagem regressiva. Peça um número ao usuario e conte deste número até 0, usando um loop while no console do navegador.
+let numeroMaximo = prompt("Digite um número:");
+while (numeroMaximo >= 0) {
+    console.log(numeroMaximo);
+    numeroMaximo--;
+}
 
-// Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
-var saldo = 2000;
-  alert(`Seu saldo é de R$ ${saldo}`)
-
-// Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
-nome = prompt("Insira seu nome:");
-alert(`Bem-vindo, ${nome}`);
-  
+// Crie um programa de contagem progressiva. Peça um número ao usuario e conte de 0 até esté número, usando um loop while no console do navegador.
+let numeroMaximo1 = prompt("Digite um número:");;
+let contador2 = 0;
+while (contador2 <= numeroMaximo1) {
+    console.log(contador);
+    contador++
+}
